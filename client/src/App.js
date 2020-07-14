@@ -31,7 +31,6 @@ export const tagManagerArgs = {
 const mapDispatchToProps = {
   initAuth: initAuth,
 };
-
 const mapStateToProps = () => ({});
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
